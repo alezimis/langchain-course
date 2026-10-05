@@ -1,6 +1,8 @@
 import os
 
 from dotenv import load_dotenv
+from langchain_core.prompts import PromptTemplate
+from langchain_openai import ChatOpenAI
 
 # method looks for .env file and loads the environment variables from there.
 load_dotenv()
